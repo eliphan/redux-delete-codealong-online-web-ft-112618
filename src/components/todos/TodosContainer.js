@@ -28,5 +28,3 @@ const mapDispatchToProps = dispatch => {
   }
   
 export default connect(mapStateToProps, mapDispatchToProps)(TodosContainer);
-
-  renderTodos = () => this.props.todos.map((todo, id) => <Todo key={id} text={todo} />)
